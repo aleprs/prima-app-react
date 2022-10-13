@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.ToDoList, .Inserimento{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 165px;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid red;
+}

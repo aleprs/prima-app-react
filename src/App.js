@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Ciao!!! Sono il componente di default
+      <PrimoComponente/> {/* richiamo la funzione PrimoComponente */}
     </div>
   );
 }
 
 export default App;
+
+function PrimoComponente(){
+  return(
+    <p>Sono il primo componente non di default</p>
+    )
+}
